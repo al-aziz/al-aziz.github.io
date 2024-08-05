@@ -3,27 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моя GitHub Pages Страница</title>
+    <title>Мой Проект</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Добро пожаловать на мою GitHub Pages страницу!</h1>
-        <p>Здесь вы найдете информацию о моих проектах и работе.</p>
+        <h1>Мой Проект</h1>
+        <p>Краткое описание вашего проекта.</p>
     </header>
 
     <main>
-        <section>
+        <section id="about">
             <h2>О проекте</h2>
-            <p>Ваш текст о проекте здесь...</p>
+            <p>Этот проект предназначен для ...</p>
         </section>
 
-        <section>
+        <section id="installation">
+            <h2>Установка и использование</h2>
+            <p>Для установки проекта выполните следующие шаги:</p>
+            <pre><code>git clone https://github.com/username/repository.git
+cd repository
+pip install -r requirements.txt
+python main.py</code></pre>
+        </section>
+
+        <section id="documentation">
+            <h2>Документация</h2>
+            <p>Подробная документация доступна <a href="https://github.com/username/repository/wiki">здесь</a>.</p>
+        </section>
+
+        <section id="screenshots">
+            <h2>Скриншоты</h2>
+            <img src="images/screenshot1.png" alt="Screenshot 1">
+            <img src="images/screenshot2.png" alt="Screenshot 2">
+        </section>
+
+        <section id="changelog">
             <h2>Последние обновления</h2>
             <ul>
-                <li>Добавлена функция X</li>
-                <li>Исправлен баг Y</li>
+                <li>Версия 1.0.1 - Добавлена функция X</li>
+                <li>Версия 1.0.0 - Первый релиз</li>
             </ul>
+        </section>
+
+        <section id="roadmap">
+            <h2>Планы на будущее</h2>
+            <p>Мы планируем добавить ...</p>
+        </section>
+
+        <section id="authors">
+            <h2>Авторы и благодарности</h2>
+            <p>Проект создан <a href="https://github.com/username">Ваше Имя</a>.</p>
+            <p>Благодарности ...</p>
+        </section>
+
+        <section id="license">
+            <h2>Лицензия</h2>
+            <p>Этот проект распространяется под лицензией MIT. Подробности <a href="LICENSE">здесь</a>.</p>
+        </section>
+
+        <section id="contributing">
+            <h2>Вклад в проект</h2>
+            <p>Инструкции по внесению изменений можно найти <a href="CONTRIBUTING.md">здесь</a>.</p>
         </section>
     </main>
 
